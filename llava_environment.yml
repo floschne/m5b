@@ -1,0 +1,23 @@
+name: m5b-llava
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch::pytorch=2.1.2
+  - pytorch::pytorch-cuda=11.8
+  - pytorch::torchvision
+  - nvidia::cuda=11.8
+  - nvidia::cuda-nvcc=11.8
+  - pandas
+  - pyarrow
+  - wandb
+  - webdataset
+  - hydra-core
+  - fire
+  # notebooks
+  - jupyter
+  - pyrootutils
+  - pip
+  - git

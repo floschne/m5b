@@ -1,0 +1,24 @@
+name: m5b-cogvlm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  # base env with pytorch etc is install via pip as the authors of CogVLM recommend
+  - pandas
+  - pyarrow
+  - wandb
+  - webdataset
+  - hydra-core
+  - fire
+  #- gxx_linux-64==11.1.0
+  # java required to compute CIDER metric
+  - openjdk
+  # notebooks
+  - jupyter
+  - pyrootutils
+  - pip
+  # after installing the environment, run the following commands (in order!) to install the base env
+  # pip install -U --index-url https://download.pytorch.org/whl/cu118 torch==2.1.0 torchvision xformers
+  # pip install "transformers>=4.35.0" sentencepiece==0.1.99 einops==0.7.0 datasets evaluate lightning torchmetrics spacy spacy-legacy pycocoevalcap protobuf
+  # pip install "accelerate>=0.24.1"
+  # pip install sacrebleu "spacy[ja]" "spacy[th]" "spacy[zh]" nltk absl-py bert_score

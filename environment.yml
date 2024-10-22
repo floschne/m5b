@@ -1,0 +1,59 @@
+name: m5b
+channels:
+  - pytorch
+  - nvidia
+  - huggingface
+  - conda-forge
+  - fastai
+dependencies:
+  # base
+  - python>=3.10
+  - pytorch::pytorch=>2.1
+  - pytorch::pytorch-cuda=11.8
+  - pytorch::torchvision
+  - nvidia::cuda=11.8
+  - nvidia::cuda-nvcc=11.8
+  # mandatory libs
+  - transformers>=4.36.2
+  - datasets
+  - peft
+  - accelerate
+  - bitsandbytes
+  - lightning
+  - ftfy
+  - sentencepiece
+  - torchmetrics
+  - pandas
+  - wandb
+  - hydra-core
+  - hydra-colorlog
+  - webdataset
+  - spacy
+  - spacy-legacy
+  - pycocoevalcap
+  - fire
+  # java required to compute CIDER metric
+  - openjdk
+  # deps for img2dataset which we can't install with deps via pip
+  - scikit-image
+  - exifread
+  - albumentations
+  - fastai::opencv-python-headless
+  # notebooks
+  - jupyter
+  - matplotlib
+  - pyrootutils
+  # dev
+  - pre-commit
+  - pytest
+  - debugpy
+  - ruff
+  - yapf
+  - monkeytype
+  - rich
+  - pytest-sugar
+  - git
+  - pip
+
+  # after the environment is created, install pip packages manually via
+  # pip install --no-cache-dir --no-deps -r requirements.txt
