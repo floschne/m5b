@@ -1,15 +1,16 @@
 # M5 - A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks
 
-This repository contains the code for the [M5 Benchmark](https://arxiv.org/abs/2407.03791) paper.
+This repository contains the code for the [M5 Benchmark](https://aclanthology.org/2024.findings-emnlp.250/) paper.
 
 ![M5 Benchmark Overview](assets/m5b_overview.png)
 
 ## News
 
-- **2024-10**: We are currently working on M5 Benchmark v2 with a cleaner and more extendable codebase, support for more models, and additional datasets.
+- **2024-11**: 🌴 We happily presented the M5 Benchmark at EMNLP in Miami! [It is now available on the ACL Anthology!](https://aclanthology.org/2024.findings-emnlp.250/)
+- **2024-10**: 👷 We are currently working on M5 Benchmark v2 with a cleaner and more extendable codebase, support for more models, and additional datasets.
 - **2024-10**: ⭐️ We publicly released the code for the M5 Benchmark.
 - **2024-09**: ⭐️ Our paper got accepted at EMNLP (Findings) 2024, Miami, FL, USA.
-- **2024-07**: We released the first preprint of the [M5 Benchmark paper](https://arxiv.org/abs/2407.03791).
+- **2024-07**: 📝 We released the first preprint of the [M5 Benchmark paper](https://arxiv.org/abs/2407.03791).
 
 ## Setup
 
