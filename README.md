@@ -8,6 +8,7 @@ This repository contains the code for the [M5 Benchmark](https://aclanthology.or
 
 - **2024-11**: 🌴 We happily presented the M5 Benchmark at EMNLP in Miami! [It is now available on the ACL Anthology!](https://aclanthology.org/2024.findings-emnlp.250/)
 - **2024-10**: 👷 We are currently working on M5 Benchmark v2 with a cleaner and more extendable codebase, support for more models, and additional datasets.
+- **2024-10**: 🤗 We released the datasets used in the M5 Benchmark on HuggingFace
 - **2024-10**: ⭐️ We publicly released the code for the M5 Benchmark.
 - **2024-09**: ⭐️ Our paper got accepted at EMNLP (Findings) 2024, Miami, FL, USA.
 - **2024-07**: 📝 We released the first preprint of the [M5 Benchmark paper](https://arxiv.org/abs/2407.03791).
@@ -102,16 +103,16 @@ Because different models require different environments, you have to activate th
 The M5 Benchmark consists of the following datasets:
  marvl xgqa xm3600 xvnli maxm xflickrco m5b_vgr m5b_vlod
 
-| Dataset ID | Name |
-| --- | --- |
-| `marvl` | MaRVL: Multicultural Reasoning over Vision and Language|
-| `xgqa` | xGQA: Cross-Lingual Visual Question Answering |
-| `xm3600` | Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset |
-| `xvnli` | Zero-Shot Cross-Lingual Visual Natural Language Inference |
-| `maxm` | MaXM: Towards Multilingual Visual Question Answering |
-| `xflickrco` | xFlickrCOCO |
-| `m5b_vgr` | M5B Visually Grounded Reasoning |
-| `m5b_vlod` | M5B Visual Outlier Detection |
+| Dataset ID | 🤗 | Name |
+| --- | --- | --- |
+| `marvl` | [🤗/floschne/marvl](https://huggingface.co/datasets/floschne/marvl) | MaRVL: Multicultural Reasoning over Vision and Language|
+| `xgqa` | [🤗/floschne/xgqa](https://huggingface.co/datasets/floschne/xgqa) | xGQA: Cross-Lingual Visual Question Answering |
+| `xm3600` | [🤗/floschne/xm3600](https://huggingface.co/datasets/floschne/xm3600) |Crossmodal-3600: A Massively Multilingual Multimodal Evaluation Dataset |
+| `xvnli` | [🤗/floschne/xvnli](https://huggingface.co/datasets/floschne/xvnli) | Zero-Shot Cross-Lingual Visual Natural Language Inference |
+| `maxm` | [🤗/floschne/maxm](https://huggingface.co/datasets/floschne/maxm) | MaXM: Towards Multilingual Visual Question Answering |
+| `xflickrco` | [🤗/floschne/xflickrco](https://huggingface.co/datasets/floschne/xflickrco) | xFlickrCOCO |
+| `m5b_vgr` | [🤗/floschne/m5b_vgr](https://huggingface.co/datasets/floschne/m5b_vgr) | M5B Visually Grounded Reasoning |
+| `m5b_vlod` | [🤗/floschne/m5b_vlod](https://huggingface.co/datasets/floschne/m5b_vlod) | M5B Visual Outlier Detection |
 
 ### Running the evaluation for a single model on a single dataset
 
