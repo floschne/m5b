@@ -133,10 +133,13 @@ If you use this code or the M5 Benchmark in your research, please cite the follo
 ```bibtex
 @inproceedings{
     schneider2024m5benchmark,
-    title={M5 - A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks},
-    author={Florian Schneider and Sunayana Sitaram},
-    booktitle={The 2024 Conference on Empirical Methods in Natural Language Processing},
-    year={2024},
-    url={https://arxiv.org/abs/2407.03791}
+    title={M5 -- A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks},
+    author={Schneider, Florian and Sitaram, Sunayana},
+    booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
+    address={Miami, Florida, USA},
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.250",
+    pages={4309--4345},
+    year={2024}
 }
 ```
